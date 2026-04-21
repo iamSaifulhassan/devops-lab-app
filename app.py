@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.get("/")
-def healthcheck():
-    return {"status": "ok", "app": "devops-lab-app"}
+def hello():
+    return "Hello DevOps World"
 
 
 if __name__ == "__main__":
